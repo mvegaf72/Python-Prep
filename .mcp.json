@@ -1,8 +1,8 @@
 {
   "mcpServers": {
     "notebooklm": {
-      "command": "npx",
-      "args": ["notebooklm-mcp@latest"]
+      "command": "node",
+      "args": ["/opt/node22/lib/node_modules/notebooklm-mcp/dist/index.js"]
     }
   }
 }
